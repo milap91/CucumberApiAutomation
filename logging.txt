@@ -11,23 +11,23 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "location": {
-        "lat": -38.383494,
-        "lng": 33.427362
-    },
-    "accuracy": 50,
-    "name": "Milap_Soni",
-    "phone_number": "(+91) 983 893 3937",
-    "address": "18 ShreinTHJI",
+    "website": "dockr.comfrench",
     "types": [
-        "shoe park",
-        "shop"
+        "sony",
+        "tv"
     ],
-    "website": "https://google.com",
-    "language": "gUJ"
+    "address": "vadodara",
+    "name": "Milap_Soni",
+    "accuracy": "51",
+    "phone_number": "2491182",
+    "language": "german",
+    "location": {
+        "lng": "40",
+        "lat": "22"
+    }
 }
 HTTP/1.1 200 OK
-Date: Fri, 17 Sep 2021 07:52:51 GMT
+Date: Fri, 17 Sep 2021 12:58:48 GMT
 Server: Apache/2.4.18 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -40,17 +40,17 @@ Content-Type: application/json;charset=UTF-8
 
 {
     "status": "OK",
-    "place_id": "5c8adcd31dffd5f0c70301ae2434bf70",
+    "place_id": "217c8c461482f859b421a5ceb9f58a92",
     "scope": "APP",
-    "reference": "9196fcdaf5914ce7f7a37c4cb09668589196fcdaf5914ce7f7a37c4cb0966858",
-    "id": "9196fcdaf5914ce7f7a37c4cb0966858"
+    "reference": "a6f0bffa581abc4e9756180d62df8f94a6f0bffa581abc4e9756180d62df8f94",
+    "id": "a6f0bffa581abc4e9756180d62df8f94"
 }
 Request method:	GET
-Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=5c8adcd31dffd5f0c70301ae2434bf70
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=217c8c461482f859b421a5ceb9f58a92
 Proxy:			<none>
 Request params:	<none>
 Query params:	key=qaclick123
-				place_id=5c8adcd31dffd5f0c70301ae2434bf70
+				place_id=217c8c461482f859b421a5ceb9f58a92
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=*/*
@@ -59,29 +59,29 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Fri, 17 Sep 2021 07:52:51 GMT
+Date: Fri, 17 Sep 2021 12:58:48 GMT
 Server: Apache/2.4.18 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
 Access-Control-Max-Age: 3600
 Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
-Content-Length: 235
+Content-Length: 195
 Keep-Alive: timeout=5, max=100
 Connection: Keep-Alive
 Content-Type: application/json;charset=UTF-8
 
 {
     "location": {
-        "latitude": "-38.383494",
-        "longitude": "33.427362"
+        "latitude": "22",
+        "longitude": "40"
     },
-    "accuracy": "50",
+    "accuracy": "51",
     "name": "Milap_Soni",
-    "phone_number": "(+91) 983 893 3937",
-    "address": "18 ShreinTHJI",
-    "types": "shoe park,shop",
-    "website": "https://google.com",
-    "language": "gUJ"
+    "phone_number": "2491182",
+    "address": "vadodara",
+    "types": "sony,tv",
+    "website": "dockr.comfrench",
+    "language": "german"
 }
 Request method:	DELETE
 Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
@@ -96,10 +96,10 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "place_id": "5c8adcd31dffd5f0c70301ae2434bf70"
+    "place_id": "217c8c461482f859b421a5ceb9f58a92"
 }
 HTTP/1.1 200 OK
-Date: Fri, 17 Sep 2021 07:52:54 GMT
+Date: Fri, 17 Sep 2021 12:58:50 GMT
 Server: Apache/2.4.18 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST

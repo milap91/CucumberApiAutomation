@@ -3,7 +3,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-09-17T07:52:49.201Z",
+        "start_timestamp": "2021-09-17T12:58:45.603Z",
         "line": 15,
         "name": "Verify with API new place is getting add or not",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 801271000,
+              "duration": 1184304000,
               "status": "passed"
             },
             "line": 6,
@@ -35,7 +35,7 @@
           },
           {
             "result": {
-              "duration": 865832200,
+              "duration": 800053100,
               "status": "passed"
             },
             "line": 7,
@@ -57,7 +57,7 @@
           },
           {
             "result": {
-              "duration": 996300,
+              "duration": 996500,
               "status": "passed"
             },
             "line": 8,
@@ -75,7 +75,7 @@
           },
           {
             "result": {
-              "duration": 368071000,
+              "duration": 346874200,
               "status": "passed"
             },
             "line": 9,
@@ -97,7 +97,7 @@
           },
           {
             "result": {
-              "duration": 9778200,
+              "duration": 11064200,
               "status": "passed"
             },
             "line": 10,
@@ -119,7 +119,7 @@
           },
           {
             "result": {
-              "duration": 2021019400,
+              "duration": 1996132300,
               "status": "passed"
             },
             "line": 11,
@@ -151,7 +151,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-09-17T07:52:53.328Z",
+        "start_timestamp": "2021-09-17T12:58:49.989Z",
         "before": [
           {
             "result": {
@@ -171,7 +171,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1992700,
+              "duration": 997400,
               "status": "passed"
             },
             "line": 22,
@@ -183,7 +183,7 @@
           },
           {
             "result": {
-              "duration": 2675306200,
+              "duration": 2623314500,
               "status": "passed"
             },
             "line": 23,
@@ -222,7 +222,7 @@
           },
           {
             "result": {
-              "duration": 8056800,
+              "duration": 7972800,
               "status": "passed"
             },
             "line": 25,

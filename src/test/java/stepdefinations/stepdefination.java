@@ -33,7 +33,8 @@ public class stepdefination extends utils {
 
 @Given("Payload is present with {string} and {string}")
 public void payload_is_present_with_and(String name, String website) throws IOException {
-reqsp=given().spec(reqspecification_subset()).body(t.add_place(name, website));
+//reqsp=given().spec(reqspecification_subset()).body(t.add_place(name, website));
+reqsp=given().spec(reqspecification_subset()).body(t.add_place_json(name, website));
 }
     
 @When("usercalls {string} with {string} method")
