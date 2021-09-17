@@ -1,0 +1,260 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-17T07:52:49.201Z",
+        "line": 15,
+        "name": "Verify with API new place is getting add or not",
+        "description": "",
+        "id": "test-location-api;verify-with-api-new-place-is-getting-add-or-not;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 801271000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Payload is present with \"Milap_Soni\" and \"https://google.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Milap_Soni\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"https://google.com\"",
+                  "offset": 41
+                }
+              ],
+              "location": "stepdefinations.stepdefination.payload_is_present_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 865832200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "usercalls \"AddPlaceAPI\" with \"POST\" method",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AddPlaceAPI\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"POST\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepdefinations.stepdefination.usercalls_with_method(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 996300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "API call got success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 38
+                }
+              ],
+              "location": "stepdefinations.stepdefination.api_call_got_success_with_status_code(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 368071000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify \"status\" in response is \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"OK\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepdefinations.stepdefination.verify_in_response_is(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9778200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify \"scope\" in response is \"APP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"scope\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"APP\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepdefinations.stepdefination.verify_in_response_is(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2021019400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify \"place_id\" created maps to \"Milap_Soni\" using \"GetPlaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"place_id\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"Milap_Soni\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"GetPlaceAPI\"",
+                  "offset": 53
+                }
+              ],
+              "location": "stepdefinations.stepdefination.verify_created_maps_to_using(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Addplace"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-17T07:52:53.328Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinations.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Verify user can delete palce using delete API",
+        "description": "",
+        "id": "test-location-api;verify-user-can-delete-palce-using-delete-api",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1992700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Payload is present for deleteAPI",
+            "match": {
+              "location": "stepdefinations.stepdefination.payload_is_present_for_delete_api()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2675306200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "usercalls \"DeletePlaceAPI\" with \"DELETE\" method",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DeletePlaceAPI\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"DELETE\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepdefinations.stepdefination.usercalls_with_method(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "API call got success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 38
+                }
+              ],
+              "location": "stepdefinations.stepdefination.api_call_got_success_with_status_code(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8056800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "verify \"status\" in response is \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"OK\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepdefinations.stepdefination.verify_in_response_is(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DeletePlace"
+          }
+        ]
+      }
+    ],
+    "name": "Test location API",
+    "description": "",
+    "id": "test-location-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Place_API_Feature.feature",
+    "tags": []
+  }
+]
